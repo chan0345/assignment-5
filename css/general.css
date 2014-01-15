@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: rgba(255,255,255,1);
+/*	background-image: url(../images/column.svg);*/
+	background-size: 100%;
+	min-width: 768px;
+	line-height: 1.5rem;
+	opacity: 1;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img {
+	width: 100%;
+}
+
+/*.baseline {
+	background-image: url(../images/baseline.svg);
+}*/
+
+em {
+	font-style: italic;
+}
+
+/* --------------------------------------------------------------------- Content */
+
+p {
+	margin-bottom: 1.5rem;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+h2 {
+	font-family: 'Shadows Into Light Two', cursive;
+	text-transform: uppercase;
+	color: rgba(0,153,153,1);
+}
+
+.wrapper {
+	padding: 6rem 26.5% 0rem 26.5%;
+}
+
+.placeholder1 {
+	height: auto;
+	width: 50%;
+	border: 2px solid rgba(204,204,204,1);
+}
+
+.placeholder2 {
+	width: 100%;
+	height: auto;
+	border: 2px solid rgba(204,204,204,1);
+}
+
+.billboard {
+	width: 24.4%;
+	padding-top: 6rem;
+	height: 100%;
+	min-width: 160px;
+	text-decoration: none;
+	text-align: left;
+	float: right;
+	color: rgba(153,153,153,1);
+}
+
+h1 {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 2rem;
+	line-height: 2.25rem;
+	margin-right: 45%;
+	color: rgba(0,153,153,1);
+}
+
+.portrait {
+	width: 47.75%;
+	float: left;
+	margin: 0 3% 1rem 0;
+	border: 2px solid rgba(204,204,204,1);
+}
+
+h3 {
+	font-family: 'Shadows Into Light Two', cursive;
+	color: rgba(0,153,153,1);
+}
+
+/* --------------------------------------------------------------------- Masthead */
+
+.masthead {
+	background-color: rgba(255,255,255,1);
+	height: 6rem;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	padding: 1rem 10.25% 0 10.25%;
+}
+
+.logo {
+	width: 20%;
+	position: absolute;
+}
+
+nav1 ul {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 1rem;
+	width: 100%;
+	text-align: right;
+}
+
+nav1 li {
+	display: inline;
+}
+
+nav1 a,
+nav1 a:link,
+nav1 a:visited {
+	display: inline-block;
+	height: 3rem;
+	padding: 1rem 1.5%;
+	color: rgba(51,51,51,1);
+	text-decoration: none;
+}
+
+nav1 a:hover,
+nav1 a:focus,
+nav1 a:active {
+	color: rgba(153,153,153,1);
+}
+
+nav1 li .selected {
+	color: rgba(51,204,204,1);
+}
+
+.badge {
+	width: 2rem;
+}
+
+/* --------------------------------------------------------------------- Sidebar */
+
+.sidebar {
+	width: 24.4%;
+	padding-top: 6rem;
+	height: 100%;
+	position: fixed;
+	min-width: 160px;
+	text-decoration: none;
+	text-align: right;
+}
+
+.menu {
+	margin-left: 45%;
+}
+
+nav2 a,
+nav2 a:link,
+nav2 a:visited {
+	color: rgba(153,153,153,1);
+	text-decoration: none;
+}
+
+nav2 a:hover,
+nav2 a:focus,
+nav2 a:active {
+	color: rgba(0,153,153,1);
+}
+
+.category {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 1rem;
+}
+
+/* --------------------------------------------------------------------- Footer */
+
+.bottom {
+	margin-top: 1.5rem;
+	height: 6rem;
+	padding: 1.5rem 13% 0 13%;
+	text-align: center;
+	background-color: rgba(51,51,51,1);
+}
+
+footer p {
+	color: rgba(153,153,153,1);
+	font-family: 'Shadows Into Light Two', cursive;
+}
